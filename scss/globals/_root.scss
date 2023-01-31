@@ -1,15 +1,20 @@
 :root {
-  --Bright-Orange: hsl(31, 77%, 52%);
-  --Dark-Cyan: hsl(184, 100%, 22%);
-  --Very-Dark-Cyan: hsl(179, 100%, 13%);
-  --Transparent-white: hsla(0, 0%, 100%, 0.75);
-  --Very-light-gray: hsl(0, 0%, 95%);
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
 
-  --ff-primary: 'Lexend Deca', sans-serif;
-  --ff-secondary: 'Big Shoulders Display', cursive;
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
 
-  --spacer: 1.5rem;
-  --br: .5rem;
+ --ff-primary:'Poppins', sans-serif;
+
+ --spacer: 3rem;
+  --fs-400: .8125rem;
+  --fs-600: .9625rem;
+
+  --br: .3rem;
 }
 
 
@@ -82,9 +87,9 @@ select {
 /* Remove all animations, transitions and smooth scroll */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-    scroll-behavior: auto;
+  scroll-behavior: auto;
   }
-
+  
   *,
   *::before,
   *::after {
@@ -98,3 +103,19 @@ select {
 ul {
   padding-left: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
